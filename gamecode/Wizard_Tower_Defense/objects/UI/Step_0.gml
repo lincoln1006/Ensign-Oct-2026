@@ -1,2 +1,2 @@
 draw_self()
-audio_play_sound(100, Sound1, true)
+audio_play_sound(Sound1, 100, true)
