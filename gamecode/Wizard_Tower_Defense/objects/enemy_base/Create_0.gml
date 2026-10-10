@@ -1,7 +1,7 @@
 onSpawn()
 
 function onDeath() {
-    for (var i = 0; i < activeDebuffs.length; i++) {
+    for (var i = 0; i < array_length(activeDebuffs); i++) {
         try {
             activeDebuffs[i].onDeath()
         }
@@ -17,7 +17,7 @@ function onSpawn() {
 
 function onHurt(damage) {
     var success = false
-    for (var i = 0; i < activeDebuffs.length; i++) {
+    for (var i = 0; i < array_length(activeDebuffs); i++) {
         try {
             if (activeDebuffs[i].onHurt(damage) == true && success == false) {
                 currentHP -= damage * 1.5
