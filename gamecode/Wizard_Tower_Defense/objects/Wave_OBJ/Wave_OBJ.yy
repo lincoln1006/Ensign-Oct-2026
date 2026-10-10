@@ -10,6 +10,7 @@
   "name":"wave_OBJ",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"damage","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.3",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"maxDistance","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"130",},
   ],
   "parent":{
     "name":"spells",
