@@ -14,3 +14,7 @@ if array_length(activeDebuffs) > 0{
 if (target != noone) {
     move_towards_point(target.x, target.y, speed * 1/slow); // 4 pixels per step
 }
+
+if currentHP <= 0{
+	instance_destroy(id);
+}
