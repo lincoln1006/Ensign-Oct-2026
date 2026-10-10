@@ -1,6 +1,36 @@
-timer_out(previous_enemy, next_enemy) {
-  var new_timer = (previous_group.value / 2) + (next_group.value / 2)
-  var queued_group = select_new_group()
+func timer_out(this_group, next_group) {
+  var delay = (this_group.value / 2) + (next_group.value / 2)
   var spawn_location = random_degree()
-  next_group.spawn()
+  previous_group.spawn(spawn_location)
+  select_new_group()
 }
+
+func select_new_group() {
+  this_group = next_group
+  next_group = possible_enemies.pick_rand
+}
+
+enemy structure:
+
+Max HP
+Current HP
+Current buffs[]
+Current negative effects[]
+Attack
+Speed
+on_spawn()
+on_death()
+
+
+enemy buffs:
+hp_regen
+
+
+negative effects:
+vulnerability (increase damage taken by 50%) [permanent effect]
+burn (damage, time left)
+slow (slow effect, time left)
+stun (time left) [when enemy walks in to existing field, gets new time based on how long field been out]
+steam-cloud (time left) [removed on exit/despawn]
+hp drain (damage, time left) [removed on exit/despawn]
+explode on death (damage) [permanent effect]
