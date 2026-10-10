@@ -1,1 +1,1 @@
-//create_instance_layer(40, 40);
+instance_create_layer(40, 40, "Instances", GasBill);

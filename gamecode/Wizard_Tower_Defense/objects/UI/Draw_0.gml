@@ -1,5 +1,5 @@
-initx = 300;
-inity = 530;
+initx = global.wizardTowerX - 100;
+inity = global.wizardTowerY + 100;
 draw_sprite(gem_earth, 0, initx, inity);
 draw_text(initx - 30, inity, string(global.curEarthGems) + "/" + string(global.maxEarthGems));
 initx += 90;

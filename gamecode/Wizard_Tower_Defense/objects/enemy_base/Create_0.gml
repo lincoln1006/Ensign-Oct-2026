@@ -11,7 +11,7 @@ function onDeath() {
 
 function onSpawn() {
     maxHP *= global.modifiers.enemyHP
-    currentHP *= global.modifiers.currentHP
+    currentHP = maxHP
     attack *= global.modifiers.enemyAttack
 }
 

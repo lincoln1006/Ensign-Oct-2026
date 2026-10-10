@@ -7,8 +7,8 @@ global.maxWaterGems = 30;
 global.curEarthGems = 30;
 global.curFireGems = 30;
 global.curWaterGems = 30;
-global.watchTowerX = x;
-global.watchTowerY = y;
+global.wizardTowerX = x;
+global.wizardTowerY = y;
 spells = {
 	"ff": "fireball"
 }
