@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"spellCosts",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"spellCosts",
+  "parent":{
+    "name":"Wizard_Tower_Defense",
+    "path":"Wizard_Tower_Defense.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
