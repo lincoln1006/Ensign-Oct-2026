@@ -9,8 +9,14 @@
     "name":"Default",
   },
   "defaultScriptType":0,
-  "Folders":[],
-  "ForcedPrefabProjectReferences":[],
+  "Folders":[
+    {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.gm_filter_fractal_noise-1.0.0","name":"io.gamemaker.gm_filter_fractal_noise-1.0.0","path":"io.gamemaker.gm_filter_fractal_noise-1.0.0.yyp",},
+  ],
   "IncludedFiles":[],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -19,12 +25,18 @@
   },
   "name":"Wizard_Tower_Defense",
   "resources":[
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"WizardTower_OBJ","path":"objects/WizardTower_OBJ/WizardTower_OBJ.yy",},},
+    {"id":{"name":"Main_Gameplay","path":"rooms/Main_Gameplay/Main_Gameplay.yy",},},
+    {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
+    {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
+    {"id":{"name":"Fireball","path":"sprites/Fireball/Fireball.yy",},},
+    {"id":{"name":"WizardTower","path":"sprites/WizardTower/WizardTower.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Main_Gameplay","path":"rooms/Main_Gameplay/Main_Gameplay.yy",},},
+    {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
