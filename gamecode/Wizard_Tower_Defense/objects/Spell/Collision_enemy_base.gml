@@ -1,1 +1,1 @@
-other.currentHP -= damage;
+other.onHurt(damage);
