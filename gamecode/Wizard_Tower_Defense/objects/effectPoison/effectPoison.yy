@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Effects",
-    "path":"folders/Effects.yy",
+    "path":"folders/Objects/Effects.yy",
   },
   "parentObjectId":{
     "name":"base_effect",

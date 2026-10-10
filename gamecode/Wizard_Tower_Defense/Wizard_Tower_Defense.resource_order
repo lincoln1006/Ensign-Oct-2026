@@ -1,6 +1,6 @@
 {
   "FolderOrderSettings":[
-    {"name":"Effects","order":9,"path":"folders/Effects.yy",},
+    {"name":"Effects","order":5,"path":"folders/Objects/Effects.yy",},
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"enemies","order":2,"path":"folders/Objects/enemies.yy",},
     {"name":"Groups","order":4,"path":"folders/Objects/Groups.yy",},
@@ -20,8 +20,9 @@
     {"name":"PowerBill","order":2,"path":"objects/PowerBill/PowerBill.yy",},
     {"name":"quicksand_OBJ","order":4,"path":"objects/quicksand_OBJ/quicksand_OBJ.yy",},
     {"name":"steam_OBJ","order":6,"path":"objects/steam_OBJ/steam_OBJ.yy",},
-    {"name":"UI","order":2,"path":"objects/UI/UI.yy",},
+    {"name":"UI","order":1,"path":"objects/UI/UI.yy",},
     {"name":"WaterBill","order":3,"path":"objects/WaterBill/WaterBill.yy",},
+    {"name":"wave_handler","order":1,"path":"objects/wave_handler/wave_handler.yy",},
     {"name":"wave_OBJ","order":3,"path":"objects/wave_OBJ/wave_OBJ.yy",},
     {"name":"Main_Gameplay","order":1,"path":"rooms/Main_Gameplay/Main_Gameplay.yy",},
     {"name":"RoomUI","order":6,"path":"roomui/RoomUI/RoomUI.yy",},
