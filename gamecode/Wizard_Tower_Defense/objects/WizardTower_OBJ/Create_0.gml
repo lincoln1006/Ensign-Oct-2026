@@ -38,12 +38,13 @@ function getSpellInput(){
 }
 
 function castSpell(spellInput){
-	spellStruct = {fireModifier: fireModifier,
-				waterModifier: waterModifier,
-				earthModifier: earthModifier}
 	fireModifier = false
 	waterModifier = false
 	earthModifier = false
+	spellStruct = {fireModifier: false,
+	waterModifier: false,
+	earthModifier: false}
+	
 	if string_char_at(spellInput, 3) == "f"{
 		fireModifier = true
 	}

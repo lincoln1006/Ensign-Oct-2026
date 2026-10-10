@@ -7,6 +7,7 @@
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"pdir","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"speed","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"4",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"hasAOE","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"spells",
@@ -33,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"fireBall",
+    "path":"sprites/fireBall/fireBall.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
