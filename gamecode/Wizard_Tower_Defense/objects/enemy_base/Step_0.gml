@@ -15,6 +15,6 @@ for (var i = 0; i < array_length(activeDebuffs); i++) {
 }
 
 
-if (target != noone) {
+if (target != noone || point_distance(x, y, target.x, target.y) <= 10) {
     move_towards_point(target.x, target.y, speed * 1/slow); // 4 pixels per step
 }

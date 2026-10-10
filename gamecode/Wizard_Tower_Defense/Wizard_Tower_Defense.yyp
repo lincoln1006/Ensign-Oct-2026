@@ -61,6 +61,7 @@
     {"id":{"name":"modifiers","path":"scripts/modifiers/modifiers.yy",},},
     {"id":{"name":"playerValues","path":"scripts/playerValues/playerValues.yy",},},
     {"id":{"name":"spells","path":"scripts/spells/spells.yy",},},
+    {"id":{"name":"Sound1","path":"sounds/Sound1/Sound1.yy",},},
     {"id":{"name":"bill_gas","path":"sprites/bill_gas/bill_gas.yy",},},
     {"id":{"name":"bill_power","path":"sprites/bill_power/bill_power.yy",},},
     {"id":{"name":"bill_water","path":"sprites/bill_water/bill_water.yy",},},

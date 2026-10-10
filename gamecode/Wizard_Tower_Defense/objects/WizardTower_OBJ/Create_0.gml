@@ -29,7 +29,7 @@ function getSpellInput(){
 		show_debug_message("spell cancelled");
 	}
 	show_debug_message(spellInput)
-	if string_length(spellInput) == 3{
+	if string_length(spellInput) == 2{
 		castSpell(spellInput);
 		spellInput = "";
 	}

@@ -35,6 +35,7 @@
     {"name":"modifiers","order":7,"path":"scripts/modifiers/modifiers.yy",},
     {"name":"playerValues","order":8,"path":"scripts/playerValues/playerValues.yy",},
     {"name":"spells","order":7,"path":"scripts/spells/spells.yy",},
+    {"name":"Sound1","order":6,"path":"sounds/Sound1/Sound1.yy",},
     {"name":"bill_gas","order":4,"path":"sprites/bill_gas/bill_gas.yy",},
     {"name":"bill_power","order":3,"path":"sprites/bill_power/bill_power.yy",},
     {"name":"bill_water","order":9,"path":"sprites/bill_water/bill_water.yy",},
