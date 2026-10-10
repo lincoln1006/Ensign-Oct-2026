@@ -1,14 +1,5 @@
-enemies = [
-	[GasBill, 0],
-	[GasBill, 0],
-	[GasBill, 0],
-	[WaterBill, 30],
-	[GasBill, 0],
-	[GasBill, 30],
-	[PowerBill, 0]
-]
+enemies = []
 
-baseAngle = irandom(359)
 tower = instance_find(wizardTower_OBJ, 0);
 
 function spawnNext(enemyName) {
