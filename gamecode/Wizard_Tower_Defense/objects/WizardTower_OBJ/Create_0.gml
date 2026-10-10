@@ -36,12 +36,14 @@ function getSpellInput(){
 }
 
 function castSpell(spellInput){
+	angle = 0;
 	fireModifier = false
 	waterModifier = false
 	earthModifier = false
 	spellStruct = {fireModifier: false,
 	waterModifier: false,
-	earthModifier: false}
+	earthModifier: false,
+	angle: 0}
 	
 	str1 = string_char_at(spellInput, 1);
 	str2 = string_char_at(spellInput, 2);
@@ -71,7 +73,7 @@ function castSpell(spellInput){
 		}
 	}
 	
-	if str1 == "f" and str2 == "f"{
+	else if str1 == "f" and str2 == "f"{
 		var fireCost = global.fireballCosts.fire;
 		var earthCost = global.fireballCosts.earth;
 		var waterCost = global.fireballCosts.water;
@@ -87,7 +89,7 @@ function castSpell(spellInput){
 		}
 	}
 	
-	if str1 == "e" and str2 == "e"{
+	else if str1 == "e" and str2 == "e"{
 		var fireCost = global.quicksandCosts.fire;
 		var earthCost = global.quicksandCosts.earth;
 		var waterCost = global.quicksandCosts.water;
@@ -97,6 +99,40 @@ function castSpell(spellInput){
 		} 
 		else{
 			instance_create_layer(self.x, self.y, "Instances", quicksand_OBJ, spellStruct)
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
+		}
+	}
+	
+	else if str1 == "e" and str2 == "w"{
+		var fireCost = global.poisonCosts.fire;
+		var earthCost = global.poisonCosts.earth;
+		var waterCost = global.poisonCosts.water;
+		show_debug_message("here")
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			instance_create_layer(self.x, self.y, "Instances", poisonCloud_OBJ, spellStruct)
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
+		}
+	}
+	
+	else if str1 == "w" and str2 == "f"{
+		var fireCost = global.steamCosts.fire;
+		var earthCost = global.steamCosts.earth;
+		var waterCost = global.steamCosts.water;
+		show_debug_message("here")
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			for (var i = 0; i < 32; i++){
+				instance_create_layer(self.x, self.y, "Instances", steam_OBJ, {pdir: 1 * i})
+			}
 			global.curEarthGems -= earthCost;
 			global.curFireGems -= fireCost;
 			global.curWaterGems -= waterCost;

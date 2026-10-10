@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"quicksand_OBJ",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"quicksand_OBJ",
   "overriddenProperties":[
@@ -10,7 +12,7 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"AOEsprite","path":"objects/Spell/Spell.yy",},"resource":{"name":"quicksand","path":"sprites/quicksand/quicksand.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"quicksand",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"damage","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"speed","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"200",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"life","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"life","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"20",},
   ],
   "parent":{
     "name":"spells",
