@@ -16,6 +16,10 @@ function getSpellInput(){
 		spellTimer = 0;
 		spellInput += "e";
 	}
+	if keyboard_check_pressed(ord("F")){
+		spellTimer = 0;
+		spellInput = "";
+	}
 	show_debug_message(spellInput)
 	if string_length(spellInput) == 3{
 		castSpell(spellInput);
@@ -46,4 +50,6 @@ function castSpell(spellInput){
 			})
 		}
 	}
+	
+	
 }
