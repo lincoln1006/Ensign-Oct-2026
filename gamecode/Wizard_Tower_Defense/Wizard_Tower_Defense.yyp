@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -25,7 +25,8 @@
   },
   "name":"Wizard_Tower_Defense",
   "resources":[
-    {"id":{"name":"WizardTower_OBJ","path":"objects/WizardTower_OBJ/WizardTower_OBJ.yy",},},
+    {"id":{"name":"fireball_OBJ","path":"objects/fireball_OBJ/fireball_OBJ.yy",},},
+    {"id":{"name":"wizardTower_OBJ","path":"objects/wizardTower_OBJ/wizardTower_OBJ.yy",},},
     {"id":{"name":"Main_Gameplay","path":"rooms/Main_Gameplay/Main_Gameplay.yy",},},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
