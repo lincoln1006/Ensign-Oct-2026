@@ -1,7 +1,6 @@
 onSpawn()
 
 function onDeath() {
-	show_debug_message("death")
 	dropCrystal()
     for (var i = 0; i < array_length(activeDebuffs); i++) {
         try {
