@@ -1,3 +1,5 @@
+event_inherited()
+
 function onSpawn() {
     maxHP *= global.modifiers.enemyHP
     currentHP *= global.modifiers.currentHP
