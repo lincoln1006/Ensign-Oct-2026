@@ -86,4 +86,20 @@ function castSpell(spellInput){
 			global.curWaterGems -= waterCost;
 		}
 	}
+	
+	if str1 == "e" and str2 == "e"{
+		var fireCost = global.quicksandCosts.fire;
+		var earthCost = global.quicksandCosts.earth;
+		var waterCost = global.quicksandCosts.water;
+		show_debug_message("here")
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			instance_create_layer(self.x, self.y, "Instances", quicksand_OBJ, spellStruct)
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
+		}
+	}
 }
