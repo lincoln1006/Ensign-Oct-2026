@@ -7,13 +7,13 @@ function onDeath() {
         }
         dropCrystal()
     }
+	instance_destroy(id)
 }
 
 function onSpawn() {
     maxHP *= global.modifiers.enemyHP
     currentHP = maxHP
     attack *= global.modifiers.enemyAttack
-	speed = baseSpeed;
 }
 
 function onHurt(damage) {
@@ -29,6 +29,9 @@ function onHurt(damage) {
     if (success == false) {
         currentHP -= damage
     }
+	if (currentHP <= 0) {
+		onDeath()
+	}
 }
 
 function onAttack() {
