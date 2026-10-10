@@ -1,0 +1,6 @@
+timer_out(previous_enemy, next_enemy) {
+  var new_timer = (previous_group.value / 2) + (next_group.value / 2)
+  var queued_group = select_new_group()
+  var spawn_location = random_degree()
+  next_group.spawn()
+}
