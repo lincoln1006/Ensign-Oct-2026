@@ -1,12 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"PowerBill",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"PowerBill",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"maxHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"currentHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"speed","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"attack","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
+  ],
   "parent":{
     "name":"enemies",
     "path":"folders/Objects/enemies.yy",
