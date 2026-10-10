@@ -1,15 +1,12 @@
 {
   "$GMObject":"",
   "%Name":"WaterBill",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"WaterBill",
-  "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"maxHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"currentHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"30",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"baseSpeed","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2.5",},
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"attack","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"15",},
-  ],
+  "overriddenProperties":[],
   "parent":{
     "name":"enemies",
     "path":"folders/Objects/enemies.yy",
@@ -36,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"bill_power",
-    "path":"sprites/bill_power/bill_power.yy",
+    "name":"bill_water",
+    "path":"sprites/bill_water/bill_water.yy",
   },
   "spriteMaskId":null,
   "visible":true,
