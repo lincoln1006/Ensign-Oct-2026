@@ -13,6 +13,7 @@ function onSpawn() {
     maxHP *= global.modifiers.enemyHP
     currentHP = maxHP
     attack *= global.modifiers.enemyAttack
+	speed = baseSpeed;
 }
 
 function onHurt(damage) {
