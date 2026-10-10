@@ -12,7 +12,6 @@
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"enemies","folderPath":"folders/Objects/enemies.yy","name":"enemies","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"spells","folderPath":"folders/Objects/spells.yy","name":"spells","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -27,11 +26,9 @@
   },
   "name":"Wizard_Tower_Defense",
   "resources":[
-    {"id":{"name":"AOE_OBJ","path":"objects/AOE_OBJ/AOE_OBJ.yy",},},
     {"id":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},},
     {"id":{"name":"fireball_OBJ","path":"objects/fireball_OBJ/fireball_OBJ.yy",},},
     {"id":{"name":"GasBill","path":"objects/GasBill/GasBill.yy",},},
-    {"id":{"name":"Spell","path":"objects/Spell/Spell.yy",},},
     {"id":{"name":"UI","path":"objects/UI/UI.yy",},},
     {"id":{"name":"wizardTower_OBJ","path":"objects/wizardTower_OBJ/wizardTower_OBJ.yy",},},
     {"id":{"name":"Main_Gameplay","path":"rooms/Main_Gameplay/Main_Gameplay.yy",},},
@@ -44,7 +41,6 @@
     {"id":{"name":"bill_power","path":"sprites/bill_power/bill_power.yy",},},
     {"id":{"name":"Enemy","path":"sprites/Enemy/Enemy.yy",},},
     {"id":{"name":"Fireball","path":"sprites/Fireball/Fireball.yy",},},
-    {"id":{"name":"fireballAOE","path":"sprites/fireballAOE/fireballAOE.yy",},},
     {"id":{"name":"gem_earth","path":"sprites/gem_earth/gem_earth.yy",},},
     {"id":{"name":"gem_fire","path":"sprites/gem_fire/gem_fire.yy",},},
     {"id":{"name":"gem_water","path":"sprites/gem_water/gem_water.yy",},},
