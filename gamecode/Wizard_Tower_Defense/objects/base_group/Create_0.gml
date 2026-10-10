@@ -1,15 +1,15 @@
-var enemies = [
-	["GasBill", 0],
-	["GasBill", 0],
-	["GasBill", 0],
-	["PowerBill", 30],
-	["GasBill", 0],
-	["GasBill", 30],
-	["WaterBill", 0],
+enemies = [
+	[GasBill, 0],
+	[GasBill, 0],
+	[GasBill, 0],
+	[PowerBill, 30],
+	[GasBill, 0],
+	[GasBill, 30],
+	[WaterBill, 0]
 ]
 
-var baseAngle = irandom(359)
-var tower = instance_find(wizardTower_OBJ, 0);
+baseAngle = irandom(359)
+tower = instance_find(wizardTower_OBJ, 0);
 
 function spawnNext(enemyName) {
 	var angle = baseAngle + irandom(80) - 40; // degrees
