@@ -7,9 +7,12 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fireball_OBJ","order":1,"path":"objects/fireball_OBJ/fireball_OBJ.yy",},
+    {"name":"UI","order":2,"path":"objects/UI/UI.yy",},
     {"name":"Main_Gameplay","order":1,"path":"rooms/Main_Gameplay/Main_Gameplay.yy",},
     {"name":"RoomUI","order":6,"path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"modifiers","order":7,"path":"scripts/modifiers/modifiers.yy",},
+    {"name":"playerValues","order":8,"path":"scripts/playerValues/playerValues.yy",},
+    {"name":"spellCosts","order":7,"path":"scripts/spellCosts/spellCosts.yy",},
     {"name":"bill_gas","order":4,"path":"sprites/bill_gas/bill_gas.yy",},
     {"name":"bill_power","order":3,"path":"sprites/bill_power/bill_power.yy",},
     {"name":"Enemy","order":1,"path":"sprites/Enemy/Enemy.yy",},
