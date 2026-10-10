@@ -60,7 +60,7 @@ function castSpell(spellInput){
 		var fireCost = global.waveCosts.fire;
 		var earthCost = global.waveCosts.earth;
 		var waterCost = global.waveCosts.water;
-		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) or (global.curWaterGems - waterCost < 0){
 			show_debug_message("not enough gems");
 		} 
 		else{

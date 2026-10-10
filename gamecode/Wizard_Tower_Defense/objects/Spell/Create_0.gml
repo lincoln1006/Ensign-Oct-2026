@@ -5,6 +5,10 @@ endY = mouse_y;
 negX = x < mouse_x;
 negY = y < mouse_y;
 image_angle = pdir
+distMouse = distance_to_point(mouse_x, mouse_y);
+if distMouse < maxDistance{
+	maxDistance = distMouse;
+}
 function aoeHit(){
 	instance_create_layer(self.x, self.y, "Instances", AOE_OBJ, {
 		AOEsprite: AOEsprite});

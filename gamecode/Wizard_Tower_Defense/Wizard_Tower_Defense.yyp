@@ -35,6 +35,7 @@
     {"id":{"name":"GasBill","path":"objects/GasBill/GasBill.yy",},},
     {"id":{"name":"PowerBill","path":"objects/PowerBill/PowerBill.yy",},},
     {"id":{"name":"quicksand_OBJ","path":"objects/quicksand_OBJ/quicksand_OBJ.yy",},},
+    {"id":{"name":"quickSandAOE_OBJ","path":"objects/quickSandAOE_OBJ/quickSandAOE_OBJ.yy",},},
     {"id":{"name":"Spell","path":"objects/Spell/Spell.yy",},},
     {"id":{"name":"UI","path":"objects/UI/UI.yy",},},
     {"id":{"name":"WaterBill","path":"objects/WaterBill/WaterBill.yy",},},
