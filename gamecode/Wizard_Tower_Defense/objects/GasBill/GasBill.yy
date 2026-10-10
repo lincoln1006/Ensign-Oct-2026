@@ -4,7 +4,13 @@
   "eventList":[],
   "managed":true,
   "name":"GasBill",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"speed","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5.0",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"attack","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"3.5",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"currentHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"maxHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"8",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"baseSpeed","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"5.0",},
+  ],
   "parent":{
     "name":"enemies",
     "path":"folders/Objects/enemies.yy",
