@@ -1,7 +1,6 @@
-if (i == 5){
-	castSpell();
+if (spellTimer > spellTimeout){
+	spellTimer = 0;
+	spellInput = "";
+	show_debug_message("spell input cleared");
 }
-if (i > 5){
-	i = 0;
-}
-i += 1;
+spellTimer += 1;
