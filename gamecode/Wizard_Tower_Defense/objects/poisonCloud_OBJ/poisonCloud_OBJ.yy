@@ -7,10 +7,11 @@
   "managed":true,
   "name":"poisonCloud_OBJ",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"damage","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"damage","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"AOEsprite","path":"objects/Spell/Spell.yy",},"resource":{"name":"poisonCloud","path":"sprites/poisonCloud/poisonCloud.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"poisonCloud",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"hasAOE","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"life","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"10",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"isPoison","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"True",},
   ],
   "parent":{
     "name":"spells",

@@ -1,15 +1,20 @@
 var target = wizardTower_OBJ
 
 var slow = 1
+show_debug_message(activeDebuffs);
 for (var i = 0; i < array_length(activeDebuffs); i++) {
-	try {
-		if (activeDebuffs[i].hasSlow()) {
-		    slow += activeDebuffs[i].strength
+	show_debug_message(instance_exists(activeDebuffs[i]));
+	if instance_exists(activeDebuffs[i]){
+		print("effect ticked");
+		try {
+			if (activeDebuffs[i].hasSlow()) {
+			    slow += activeDebuffs[i].strength
+			}
 		}
-	}
-	try {
-		if (activeDebuffs[i].onTick()) {
+		try {
+			print("debuff ticked");
 		    activeDebuffs[i].onTick()
+			
 		}
 	}
 }

@@ -3,9 +3,11 @@ onSpawn()
 function onDeath() {
 	dropCrystal()
     for (var i = 0; i < array_length(activeDebuffs); i++) {
-        try {
-            activeDebuffs[i].onDeath()
-        }
+		if instance_exists(activeDebuffs[i]){
+	        try {
+	            activeDebuffs[i].onDeath()
+	        }
+		}
     }
 	instance_destroy(id)
 }
@@ -15,17 +17,20 @@ function onSpawn() {
     currentHP = maxHP
     attack *= global.modifiers.enemyAttack
 	speed = baseSpeed;
+	activeDebuffs = [];
 }
 
 function onHurt(damage) {
     var success = false
     for (var i = 0; i < array_length(activeDebuffs); i++) {
-        try {
-            if (success == false && activeDebuffs[i].onHurt(0)) {
-                currentHP -= activeDebuffs[i].onHurt(damage)
-                success = true
-            }
-        }
+		if instance_exists(activeDebuffs[i]){
+	        try {
+	            if (success == false && activeDebuffs[i].onHurt(0)) {
+	                currentHP -= activeDebuffs[i].onHurt(damage)
+	                success = true
+	            }
+	        }
+		}
     }
     if (success == false) {
         currentHP -= damage

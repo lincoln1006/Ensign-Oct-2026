@@ -41,6 +41,7 @@
     {"$GMObjectProperty":"v2","%Name":"attack","filters":[],"listItems":[],"multiselect":false,"name":"attack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5.0","varType":0,},
     {"$GMObjectProperty":"v2","%Name":"canAttack","filters":[],"listItems":[],"multiselect":false,"name":"canAttack","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v2","%Name":"baseSpeed","filters":[],"listItems":[],"multiselect":false,"name":"baseSpeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"3.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"poisonSource","filters":[],"listItems":[],"multiselect":false,"name":"poisonSource","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -6,5 +6,6 @@ instance_create_layer(mouse_x, mouse_y, "Instances", AOE_OBJ, {
 			AOEsprite: AOEsprite,
 			damage: damage,
 			life: life,
-			isStun: isStun});
+			isStun: isStun,
+			isPoison: isPoison});
 instance_destroy(id);

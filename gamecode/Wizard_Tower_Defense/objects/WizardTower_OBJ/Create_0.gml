@@ -138,4 +138,40 @@ function castSpell(spellInput){
 			global.curWaterGems -= waterCost;
 		}
 	}
+	
+	else if str1 == "e" and str2 == "f"{
+		var fireCost = global.steamCosts.fire;
+		var earthCost = global.steamCosts.earth;
+		var waterCost = global.steamCosts.water;
+		show_debug_message("here")
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			for (var i = 0; i < 32; i++){
+				instance_create_layer(self.x, self.y, "Instances", explode_OBJ, spellStruct)
+			}
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
+		}
+	}
+	
+	else if str1 == "w" and str2 == "e"{
+		var fireCost = global.steamCosts.fire;
+		var earthCost = global.steamCosts.earth;
+		var waterCost = global.steamCosts.water;
+		show_debug_message("here")
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			for (var i = 0; i < 32; i++){
+				instance_create_layer(self.x, self.y, "Instances", heal_OBJ, spellStruct)
+			}
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
+		}
+	}
 }

@@ -10,6 +10,7 @@ function hasSlow() {
 function onStep() {
 	return false
 }
+array_push(enemy.activeDebuffs, self.id);
 /*function onHurt(damage) {
 	if (damage == 0) {
 		return damage * 1.5
