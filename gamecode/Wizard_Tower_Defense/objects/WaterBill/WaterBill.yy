@@ -6,7 +6,11 @@
   ],
   "managed":true,
   "name":"WaterBill",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"maxHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"currentHP","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"12",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"propertyId":{"name":"speed","path":"objects/enemy_base/enemy_base.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
+  ],
   "parent":{
     "name":"enemies",
     "path":"folders/Objects/enemies.yy",
