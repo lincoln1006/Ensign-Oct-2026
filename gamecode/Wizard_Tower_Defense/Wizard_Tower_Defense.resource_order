@@ -2,12 +2,15 @@
   "FolderOrderSettings":[
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"enemies","order":2,"path":"folders/Objects/enemies.yy",},
+    {"name":"groups","order":3,"path":"folders/Objects/groups.yy",},
     {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
     {"name":"fireball_OBJ","order":1,"path":"objects/fireball_OBJ/fireball_OBJ.yy",},
     {"name":"GasBill","order":1,"path":"objects/GasBill/GasBill.yy",},
+    {"name":"Object6","order":2,"path":"objects/Object6/Object6.yy",},
+    {"name":"Object7","order":3,"path":"objects/Object7/Object7.yy",},
     {"name":"UI","order":2,"path":"objects/UI/UI.yy",},
     {"name":"Main_Gameplay","order":1,"path":"rooms/Main_Gameplay/Main_Gameplay.yy",},
     {"name":"RoomUI","order":6,"path":"roomui/RoomUI/RoomUI.yy",},

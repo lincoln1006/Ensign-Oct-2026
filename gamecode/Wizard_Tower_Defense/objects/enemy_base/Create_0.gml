@@ -19,13 +19,14 @@ function onHurt(damage) {
 	var success = false
 	for (var i = 0; i < activeDebuffs.length; i++) {
 		try {
-			if (activeDebuffs[i].onHurt(damage) == true) {
+			if (activeDebuffs[i].onHurt(damage) == true && success == false) {
 				currentHP -= damage * 1.5
 				success = true
 			}
-		} catch (_expression) {
-			currentHP -= damage
 		}
+	}
+	if (success == false) {
+		currentHP -= damage
 	}
 }
 
