@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"Wave_OBJ",
+  "%Name":"wave_OBJ",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Wave_OBJ",
+  "name":"wave_OBJ",
   "overriddenProperties":[
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Spell","path":"objects/Spell/Spell.yy",},"propertyId":{"name":"damage","path":"objects/Spell/Spell.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"0.3",},
   ],

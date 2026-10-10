@@ -64,7 +64,7 @@ function castSpell(spellInput){
 			show_debug_message("not enough gems");
 		} 
 		else{
-			instance_create_layer(self.x, self.y, "Instances", Wave_OBJ, spellStruct)
+			instance_create_layer(self.x, self.y, "Instances", wave_OBJ, spellStruct)
 			global.curEarthGems -= earthCost;
 			global.curFireGems -= fireCost;
 			global.curWaterGems -= waterCost;
