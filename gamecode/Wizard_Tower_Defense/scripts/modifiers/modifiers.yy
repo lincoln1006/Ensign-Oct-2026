@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"modifiers",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"modifiers",
+  "parent":{
+    "name":"Wizard_Tower_Defense",
+    "path":"Wizard_Tower_Defense.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
