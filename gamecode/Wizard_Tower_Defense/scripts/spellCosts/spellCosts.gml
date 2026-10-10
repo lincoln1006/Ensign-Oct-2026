@@ -1,1 +1,0 @@
-global.fireballCosts = {fire: 2, water: 0, earth: 0};

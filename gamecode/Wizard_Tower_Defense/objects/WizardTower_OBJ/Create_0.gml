@@ -9,9 +9,7 @@ global.curFireGems = 30;
 global.curWaterGems = 30;
 global.wizardTowerX = x;
 global.wizardTowerY = y;
-spells = {
-	"ff": "fireball"
-}
+
 function getSpellInput(){
 	if keyboard_check_pressed(ord("A")){
 		spellTimer = 0;
@@ -45,6 +43,9 @@ function castSpell(spellInput){
 	waterModifier: false,
 	earthModifier: false}
 	
+	str1 = string_char_at(spellInput, 1);
+	str2 = string_char_at(spellInput, 2);
+	
 	if string_char_at(spellInput, 3) == "f"{
 		fireModifier = true
 	}
@@ -54,27 +55,35 @@ function castSpell(spellInput){
 	else if string_char_at(spellInput, 3) == "e"{
 		earthModifier = true
 	}
-	
-	if string_char_at(spellInput, 1) == "f"{
-		if string_char_at(spellInput, 2) == "f"{
-			var fireCost = global.fireballCosts.fire;
-			var earthCost = global.fireballCosts.earth;
-			var waterCost = global.fireballCosts.water;
-			show_debug_message("here")
-			if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
-				show_debug_message("not enough gems");
-			} 
-			else{
-				instance_create_layer(self.x, self.y, "Instances", fireball_OBJ, spellStruct)
-				global.curEarthGems -= earthCost;
-				global.curFireGems -= fireCost;
-				global.curWaterGems -= waterCost;
-				show_debug_message(global.curFireGems);
-			}
-				
-			
+	if str1 == "w" and str2 == "w"{
+		show_debug_message("wave fr");
+		var fireCost = global.waveCosts.fire;
+		var earthCost = global.waveCosts.earth;
+		var waterCost = global.waveCosts.water;
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			instance_create_layer(self.x, self.y, "Instances", Wave_OBJ, spellStruct)
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
 		}
 	}
 	
-	
+	if str1 == "f" and str2 == "f"{
+		var fireCost = global.fireballCosts.fire;
+		var earthCost = global.fireballCosts.earth;
+		var waterCost = global.fireballCosts.water;
+		show_debug_message("here")
+		if (global.curFireGems - fireCost < 0) or (global.curEarthGems - earthCost < 0) and (global.curWaterGems - waterCost < 0){
+			show_debug_message("not enough gems");
+		} 
+		else{
+			instance_create_layer(self.x, self.y, "Instances", fireball_OBJ, spellStruct)
+			global.curEarthGems -= earthCost;
+			global.curFireGems -= fireCost;
+			global.curWaterGems -= waterCost;
+		}
+	}
 }
