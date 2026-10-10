@@ -1,12 +1,14 @@
 onSpawn()
 
 function onDeath() {
+	show_debug_message("death")
+	dropCrystal()
     for (var i = 0; i < array_length(activeDebuffs); i++) {
         try {
             activeDebuffs[i].onDeath()
         }
-        dropCrystal()
     }
+	instance_destroy(id)
 }
 
 function onSpawn() {
@@ -29,6 +31,9 @@ function onHurt(damage) {
     if (success == false) {
         currentHP -= damage
     }
+	if (currentHP <= 0) {
+		onDeath()
+	}
 }
 
 function onAttack() {
@@ -39,6 +44,7 @@ function onAttack() {
 }
 
 function dropCrystal() {
+	
     //fire
     var fireDropRate = 0.2 + global.modifiers.fireGemDrop;
     var fireDrops = floor(fireDropRate);
