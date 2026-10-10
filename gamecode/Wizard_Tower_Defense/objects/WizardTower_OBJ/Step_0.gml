@@ -4,12 +4,12 @@ if (spellTimer > spellTimeout){
 	//show_debug_message("spell cancelled");
 }
 spellTimer += 1;
-if global.curHealth < global.maxPlayerHealth{
-	global.curHealth += global.modifier.towerRecovery
+if global.playerHealth < global.maxPlayerHealth{
+	global.playerHealth += global.modifiers.towerRecovery
 }
 
-if global.maxPlayerHealth < global.curHealth {
-	global.curHealth = global.maxPlayerHealth
+if global.maxPlayerHealth < global.playerHealth {
+	global.playerHealth = global.maxPlayerHealth
 }
 
-global.maxPlayerHealth = global.baseMaxPlayerHealth * global.modifier.bonusTowerHP
+global.maxPlayerHealth = global.baseMaxPlayerHealth * global.modifiers.bonusTowerHP

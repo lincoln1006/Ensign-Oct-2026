@@ -2,11 +2,13 @@
   "FolderOrderSettings":[
     {"name":"Objects","order":4,"path":"folders/Objects.yy",},
     {"name":"enemies","order":2,"path":"folders/Objects/enemies.yy",},
+    {"name":"spells","order":3,"path":"folders/Objects/spells.yy",},
     {"name":"Rooms","order":5,"path":"folders/Rooms.yy",},
     {"name":"Sprites","order":2,"path":"folders/Sprites.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"fireball_OBJ","order":1,"path":"objects/fireball_OBJ/fireball_OBJ.yy",},
+    {"name":"AOE_OBJ","order":1,"path":"objects/AOE_OBJ/AOE_OBJ.yy",},
+    {"name":"fireball_OBJ","order":2,"path":"objects/fireball_OBJ/fireball_OBJ.yy",},
     {"name":"GasBill","order":1,"path":"objects/GasBill/GasBill.yy",},
     {"name":"UI","order":2,"path":"objects/UI/UI.yy",},
     {"name":"Main_Gameplay","order":1,"path":"rooms/Main_Gameplay/Main_Gameplay.yy",},
@@ -18,6 +20,7 @@
     {"name":"bill_power","order":3,"path":"sprites/bill_power/bill_power.yy",},
     {"name":"Enemy","order":1,"path":"sprites/Enemy/Enemy.yy",},
     {"name":"Fireball","order":2,"path":"sprites/Fireball/Fireball.yy",},
+    {"name":"fireballAOE","order":8,"path":"sprites/fireballAOE/fireballAOE.yy",},
     {"name":"gem_earth","order":6,"path":"sprites/gem_earth/gem_earth.yy",},
     {"name":"gem_fire","order":7,"path":"sprites/gem_fire/gem_fire.yy",},
     {"name":"gem_water","order":5,"path":"sprites/gem_water/gem_water.yy",},

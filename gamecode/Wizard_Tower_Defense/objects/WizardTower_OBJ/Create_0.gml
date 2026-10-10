@@ -7,6 +7,8 @@ global.maxWaterGems = 30;
 global.curEarthGems = 30;
 global.curFireGems = 30;
 global.curWaterGems = 30;
+global.watchTowerX = x;
+global.watchTowerY = y;
 spells = {
 	"ff": "fireball"
 }
@@ -36,6 +38,9 @@ function getSpellInput(){
 }
 
 function castSpell(spellInput){
+	spellStruct = {fireModifier: fireModifier,
+				waterModifier: waterModifier,
+				earthModifier: earthModifier}
 	fireModifier = false
 	waterModifier = false
 	earthModifier = false
@@ -59,11 +64,7 @@ function castSpell(spellInput){
 				show_debug_message("not enough gems");
 			} 
 			else{
-				instance_create_layer(self.x, self.y, "Instances", fireball_OBJ, {
-				fireModifier: fireModifier,
-				waterModifier: waterModifier,
-				earthModifier: earthModifier
-				})
+				instance_create_layer(self.x, self.y, "Instances", fireball_OBJ, spellStruct)
 				global.curEarthGems -= earthCost;
 				global.curFireGems -= fireCost;
 				global.curWaterGems -= waterCost;

@@ -1,0 +1,1 @@
+object_set_sprite(0, AOEsprite);
