@@ -21,8 +21,8 @@ function onHurt(damage) {
     var success = false
     for (var i = 0; i < array_length(activeDebuffs); i++) {
         try {
-            if (activeDebuffs[i].onHurt(damage) == true && success == false) {
-                currentHP -= damage * 1.5
+            if (success == false && activeDebuffs[i].onHurt(0)) {
+                currentHP -= activeDebuffs[i].onHurt(damage)
                 success = true
             }
         }
