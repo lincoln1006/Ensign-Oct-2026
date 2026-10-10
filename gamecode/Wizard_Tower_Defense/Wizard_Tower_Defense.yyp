@@ -28,6 +28,7 @@
   "resources":[
     {"id":{"name":"enemy_base","path":"objects/enemy_base/enemy_base.yy",},},
     {"id":{"name":"fireball_OBJ","path":"objects/fireball_OBJ/fireball_OBJ.yy",},},
+    {"id":{"name":"GasBill","path":"objects/GasBill/GasBill.yy",},},
     {"id":{"name":"UI","path":"objects/UI/UI.yy",},},
     {"id":{"name":"wizardTower_OBJ","path":"objects/wizardTower_OBJ/wizardTower_OBJ.yy",},},
     {"id":{"name":"Main_Gameplay","path":"rooms/Main_Gameplay/Main_Gameplay.yy",},},

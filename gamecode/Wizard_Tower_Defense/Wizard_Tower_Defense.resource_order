@@ -7,6 +7,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"fireball_OBJ","order":1,"path":"objects/fireball_OBJ/fireball_OBJ.yy",},
+    {"name":"GasBill","order":1,"path":"objects/GasBill/GasBill.yy",},
     {"name":"UI","order":2,"path":"objects/UI/UI.yy",},
     {"name":"Main_Gameplay","order":1,"path":"rooms/Main_Gameplay/Main_Gameplay.yy",},
     {"name":"RoomUI","order":6,"path":"roomui/RoomUI/RoomUI.yy",},

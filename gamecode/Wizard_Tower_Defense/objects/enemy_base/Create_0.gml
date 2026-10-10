@@ -3,25 +3,36 @@ onSpawn()
 function onDeath() {
 	for (var i = 0; i < activeDebuffs.length; i++) {
 		try {
-			i.onDeath()
+			activeDebuffs[i].onDeath()
 		}
+		dropCrystal()
 	}
 }
 
 function onSpawn() {
+	maxHP *= global.modifiers.enemyHP
+	currentHP *= global.modifiers.currentHP
+	attack *= global.modifiers.enemyAttack
 }
 
 function onHurt(damage) {
 	var success = false
 	for (var i = 0; i < activeDebuffs.length; i++) {
 		try {
-			if (i.onHurt(damage) == true) {
+			if (activeDebuffs[i].onHurt(damage) == true) {
 				currentHP -= damage * 1.5
 				success = true
 			}
 		} catch (_expression) {
 			currentHP -= damage
 		}
+	}
+}
+
+function onAttack() {
+	if (canAttack) {
+		canAttack = false
+		alarm_set(0, 60 * 2)
 	}
 }
 
